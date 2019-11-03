@@ -1,0 +1,26 @@
+{
+  "name": "no-more-script",
+  "version": "0.1.0",
+  "description": "One script to stop all other scripts",
+  "main": "lib/no-more-script.js",
+  "browser": "lib/no-more-script.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/no-more-script.git"
+  },
+  "keywords": [
+    "noscript"
+  ],
+  "author": "Preet Shihn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshihn/no-more-script/issues"
+  },
+  "homepage": "https://github.com/pshihn/no-more-script#readme"
+}

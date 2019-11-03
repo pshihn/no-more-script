@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <title>no-more-script</title>
+
+  <script>console.log('inline 1');</script>
+  <script src="./a.js"></script>
+  <script defer src="./b.js"></script>
+  <!-- <script src="../lib/no-more-script.js"></script> -->
+  <script src="./c.js"></script>
+  <script defer src="./d.js"></script>
+  <script>
+    console.log('inline 2');
+    setTimeout(() => {
+      const script = document.createElement('script');
+      script.src = './e.js';
+      document.head.appendChild(script);
+    }, 500);
+  </script>
+
+</head>
+
+<body>
+  Look in console
+</body>
+
+</html>
