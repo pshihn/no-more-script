@@ -2,7 +2,7 @@
 
 One script to stop all other scripts!
 
-Once this script has been loaded, any script loaded later will not run. 
+Once this script has loaded, any script loaded later will not run. 
 
 ```html
 <script>console.log('inline 1');</script>
